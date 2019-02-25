@@ -1,0 +1,110 @@
+19-02-07 20:38:41  |Portal| Loading /Users/grace/evennia/evennia/evennia/server/portal/portal.py...
+19-02-07 20:38:41  |Portal| Loaded.
+19-02-07 20:38:41  |Portal| twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-07 20:38:41  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-07 20:38:41  |Portal| AMP starting on 4006
+19-02-07 20:38:41  |Portal| Telnet starting on 4000
+19-02-07 20:38:41  |Portal| Websocket (WebSocketFactory) starting on 4002
+19-02-07 20:38:41  |Portal| Webserver-proxy starting on 4001
+19-02-07 20:39:42  |Portal| Starting RFC 6455 conversation
+19-02-07 20:40:41  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=59814)
+19-02-07 20:40:41  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=59842)
+19-02-07 20:40:41  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=59813)
+19-02-07 20:40:41  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=59840)
+19-02-07 20:40:41  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=59844)
+19-02-07 20:40:42  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=59817)
+19-02-07 20:43:13  |Portal| In connectionLost of webclient
+19-02-07 20:43:13  |Portal| In connectionLost of webclient
+19-02-07 20:43:13  |Portal| (TCP Port 4001 Closed)
+19-02-07 20:43:13  |Portal| (TCP Port 4002 Closed)
+19-02-07 20:43:13  |Portal| (TCP Port 4000 Closed)
+19-02-07 20:43:13  |Portal| (TCP Port 4006 Closed)
+19-02-07 20:43:13  |Portal| Main loop terminated.
+19-02-07 20:43:13  |Portal| Server Shut Down.
+19-02-07 20:44:22  |Portal| Loading /Users/grace/evennia/evennia/evennia/server/portal/portal.py...
+19-02-07 20:44:23  |Portal| Loaded.
+19-02-07 20:44:23  |Portal| twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-07 20:44:23  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-07 20:44:23  |Portal| AMP starting on 4006
+19-02-07 20:44:23  |Portal| Telnet starting on 4000
+19-02-07 20:44:23  |Portal| Websocket (WebSocketFactory) starting on 4002
+19-02-07 20:44:23  |Portal| Webserver-proxy starting on 4001
+19-02-07 20:45:27  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=59976)
+19-02-07 20:45:27  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=59981)
+19-02-07 20:45:27  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=59978)
+19-02-11 23:06:29  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=58170)
+19-02-11 23:06:29  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=58172)
+19-02-11 23:06:29  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=58177)
+19-02-11 23:06:38  |Portal| Starting RFC 6455 conversation
+19-02-11 23:07:26  |Portal| In connectionLost of webclient
+19-02-11 23:07:26  |Portal| In connectionLost of webclient
+19-02-11 23:07:26  |Portal| (TCP Port 4001 Closed)
+19-02-11 23:07:26  |Portal| (TCP Port 4002 Closed)
+19-02-11 23:07:26  |Portal| (TCP Port 4000 Closed)
+19-02-11 23:07:26  |Portal| (TCP Port 4006 Closed)
+19-02-11 23:07:26  |Portal| Main loop terminated.
+19-02-11 23:07:26  |Portal| Server Shut Down.
+19-02-11 23:08:50  |Portal| Loading /Users/grace/evennia/evennia/evennia/server/portal/portal.py...
+19-02-11 23:08:51  |Portal| Loaded.
+19-02-11 23:08:51  |Portal| twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-11 23:08:51  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-11 23:08:51  |Portal| AMP starting on 4006
+19-02-11 23:08:51  |Portal| Telnet starting on 4000
+19-02-11 23:08:51  |Portal| Websocket (WebSocketFactory) starting on 4002
+19-02-11 23:08:51  |Portal| Webserver-proxy starting on 4001
+19-02-11 23:14:51  |Portal| Starting RFC 6455 conversation
+19-02-11 23:15:51  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=58260)
+19-02-13 02:11:02  |Portal| Starting RFC 6455 conversation
+19-02-13 02:11:02  |Portal| In connectionLost of webclient
+19-02-13 02:11:02  |Portal| In connectionLost of webclient
+19-02-13 02:12:02  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49268)
+19-02-13 02:12:02  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49289)
+19-02-13 02:12:02  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49274)
+19-02-13 02:12:02  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49267)
+19-02-13 02:12:02  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49287)
+19-02-13 02:12:02  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49291)
+19-02-20 22:44:14  |Portal| In connectionLost of webclient
+19-02-20 22:44:14  |Portal| In connectionLost of webclient
+19-02-23 19:18:04  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=56158)
+19-02-23 19:18:04  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=56156)
+19-02-23 19:18:04  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=56163)
+19-02-23 19:41:45  |Portal| Starting RFC 6455 conversation
+19-02-23 19:42:44  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=56306)
+19-02-23 19:42:44  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=56298)
+19-02-23 19:42:44  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=56247)
+19-02-23 19:42:44  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=56308)
+19-02-23 19:42:44  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=56302)
+19-02-23 19:42:44  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=56304)
+19-02-23 19:56:14  |Portal| In connectionLost of webclient
+19-02-23 19:56:14  |Portal| In connectionLost of webclient
+19-02-23 19:58:03  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=56578)
+19-02-23 20:01:12  |Portal| Starting RFC 6455 conversation
+19-02-23 20:02:12  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=56683)
+19-02-24 19:48:06  |Portal| In connectionLost of webclient
+19-02-24 19:48:06  |Portal| In connectionLost of webclient
+19-02-24 19:48:41  |Portal| Starting RFC 6455 conversation
+19-02-24 19:49:41  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=51069)
+19-02-25 04:37:13  |Portal| In connectionLost of webclient
+19-02-25 04:37:13  |Portal| In connectionLost of webclient
+19-02-25 04:37:35  |Portal| Received SIGTERM, shutting down.
+19-02-25 04:37:35  |Portal| (TCP Port 4001 Closed)
+19-02-25 04:37:35  |Portal| (TCP Port 4002 Closed)
+19-02-25 04:37:35  |Portal| (TCP Port 4000 Closed)
+19-02-25 04:37:35  |Portal| (TCP Port 4006 Closed)
+19-02-25 04:37:35  |Portal| Main loop terminated.
+19-02-25 04:37:35  |Portal| Server Shut Down.
+19-02-25 14:56:53  |Portal| Loading /Users/grace/evennia/evennia/evennia/server/portal/portal.py...
+19-02-25 14:56:54  |Portal| Loaded.
+19-02-25 14:56:54  |Portal| twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-25 14:56:54  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-25 14:56:54  |Portal| AMP starting on 4006
+19-02-25 14:56:54  |Portal| Telnet starting on 4000
+19-02-25 14:56:54  |Portal| Websocket (WebSocketFactory) starting on 4002
+19-02-25 14:56:54  |Portal| Webserver-proxy starting on 4001
+19-02-25 14:57:00  |Portal| Starting RFC 6455 conversation
+19-02-25 14:58:00  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49669)
+19-02-25 14:58:00  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49685)
+19-02-25 14:58:00  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49673)
+19-02-25 14:58:00  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49680)
+19-02-25 14:58:00  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49683)
+19-02-25 14:58:00  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=49670)

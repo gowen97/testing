@@ -1,0 +1,1717 @@
+19-02-07 20:38:42 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-07 20:38:42 Loaded.
+19-02-07 20:38:42 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-07 20:38:42 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-07 20:38:42 Webserver starting on 4005
+19-02-07 20:38:42 [..] Initial setup: Creating objects (Account #1 and Limbo room) ...
+19-02-07 20:38:42 [..] Initial setup: Creating default channels ...
+19-02-07 20:38:42 [..] Initial setup: Running at_initial_setup() hook.
+19-02-07 20:38:42 [..] Initial setup: Gathering static resources using 'collectstatic'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/mygame/web/static_overrides/webclient/css/README.md'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/mygame/web/static_overrides/webclient/js/README.md'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/mygame/web/static_overrides/website/css/README.md'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/mygame/web/static_overrides/website/images/README.md'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/css/base.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/css/changelists.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/css/dashboard.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/css/fonts.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/css/forms.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/css/login.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/css/rtl.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/css/widgets.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/fonts/LICENSE.txt'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/fonts/README.txt'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/fonts/Roboto-Bold-webfont.woff'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/fonts/Roboto-Light-webfont.woff'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/fonts/Roboto-Regular-webfont.woff'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/calendar-icons.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/icon-addlink.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/icon-alert.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/icon-calendar.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/icon-changelink.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/icon-clock.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/icon-deletelink.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/icon-no.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/icon-unknown-alt.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/icon-unknown.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/icon-yes.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/inline-delete.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/LICENSE'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/README.txt'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/search.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/selector-icons.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/sorting-icons.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/tooltag-add.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/tooltag-arrowright.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/gis/move_vertex_off.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/img/gis/move_vertex_on.svg'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.min.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/calendar.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/cancel.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/change_form.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.min.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/core.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/inlines.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/inlines.min.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/jquery.init.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/popup_response.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/prepopulate.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/prepopulate.min.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/prepopulate_init.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectBox.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/timeparse.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/urlify.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.min.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/xregexp.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/xregexp.min.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/website/static/website/css/app.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/website/static/website/css/custom.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/website/static/website/css/prosimii-print.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/website/static/website/css/prosimii-screen-alt.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/website/static/website/css/prosimii-screen.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/website/static/website/images/evennia_logo.png'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/website/static/website/images/evennia_logo_festive.png'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/website/static/website/images/favicon.ico'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/website/static/website/images/LICENCE'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/css/webclient.css'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/js/evennia.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/js/webclient_gui.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/js/plugins/default_in.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/js/plugins/default_out.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/js/plugins/default_unload.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/js/plugins/history.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/js/plugins/hotbuttons.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/js/plugins/notifications.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/js/plugins/oob.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/js/plugins/options.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/js/plugins/popups.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/js/plugins/splithandler.js'
+19-02-07 20:38:42 Copying '/Users/grace/evennia/evennia/evennia/web/webclient/static/webclient/media/notification.wav'
+19-02-07 20:38:42 
+19-02-07 20:38:42 88 static files copied to '/Users/grace/evennia/mygame/web/static', 1 unmodified.
+19-02-07 20:38:42 [..] Initial setup complete. Restarting Server once.
+19-02-07 20:38:42 Evennia Server successfully started.
+19-02-07 20:38:43 [..] Server disconnected from the portal.
+19-02-07 20:38:43 Main loop terminated.
+19-02-07 20:38:43 Server Shut Down.
+19-02-07 20:38:44 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-07 20:38:44 Loaded.
+19-02-07 20:38:44 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-07 20:38:44 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-07 20:38:44 Webserver starting on 4005
+19-02-07 20:38:44 Evennia Server successfully restarted in 'reset' mode.
+19-02-07 20:39:42 [..] Logged in: alexey(account 1) 127.0.0.1 (1 session(s) total)
+19-02-07 20:43:12 [..] Server shutdown by alexey.
+19-02-07 20:43:13 [..] Server disconnected from the portal.
+19-02-07 20:43:13 Main loop terminated.
+19-02-07 20:43:13 Server Shut Down.
+19-02-07 20:44:23 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-07 20:44:24 Loaded.
+19-02-07 20:44:24 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-07 20:44:24 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-07 20:44:24 Webserver starting on 4005
+19-02-07 20:44:24 Evennia Server successfully started.
+19-02-11 23:07:03 [..] Logged in: alexey(account 1) 127.0.0.1 (1 session(s) total)
+19-02-11 23:07:24 [..] Server shutdown by alexey.
+19-02-11 23:07:26 [..] Server disconnected from the portal.
+19-02-11 23:07:26 Main loop terminated.
+19-02-11 23:07:26 Server Shut Down.
+19-02-11 23:08:51 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-11 23:08:52 Loaded.
+19-02-11 23:08:52 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-11 23:08:52 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-11 23:08:52 Webserver starting on 4005
+19-02-11 23:08:52 Evennia Server successfully started.
+19-02-11 23:15:00 [..] Logged in: alexey(account 1) 127.0.0.1 (1 session(s) total)
+19-02-13 02:11:02 [..] Logged out: alexey(account 1) 127.0.0.1 (1 sessions(s) remaining) (Logged in from elsewhere. Disconnecting.)
+19-02-13 02:11:02 [..] Logged in: alexey(account 1) 127.0.0.1 (1 session(s) total)
+19-02-13 02:11:07 [..] Server disconnected from the portal.
+19-02-13 02:11:07 Main loop terminated.
+19-02-13 02:11:07 Server Shut Down.
+19-02-13 02:11:07 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-13 02:11:08 Loaded.
+19-02-13 02:11:08 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-13 02:11:08 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-13 02:11:08 Webserver starting on 4005
+19-02-13 02:11:08 Server successfully reloaded.
+19-02-13 02:11:08 [::] Traceback (most recent call last):
+19-02-13 02:11:08 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-13 02:11:08 [::]     module = import_module(modpath, package="evennia")
+19-02-13 02:11:08 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-13 02:11:08 [::]     __import__(name)
+19-02-13 02:11:08 [::]   File "./commands/default_cmdsets.py", line 96, in <module>
+19-02-13 02:11:08 [::]     from commands.command import CmdEcho
+19-02-13 02:11:08 [::]   File "./commands/command.py", line 34, in <module>
+19-02-13 02:11:08 [::]     class CmdEcho (defaults_cmds.MuxCommand):
+19-02-13 02:11:08 [::] NameError: name 'defaults_cmds' is not defined
+19-02-13 02:11:08 [EE] Traceback (most recent call last):
+19-02-13 02:11:08 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-13 02:11:08 [EE]     module = import_module(modpath, package="evennia")
+19-02-13 02:11:08 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-13 02:11:08 [EE]     __import__(name)
+19-02-13 02:11:08 [EE]   File "./commands/default_cmdsets.py", line 96, in <module>
+19-02-13 02:11:08 [EE]     from commands.command import CmdEcho
+19-02-13 02:11:08 [EE]   File "./commands/command.py", line 34, in <module>
+19-02-13 02:11:08 [EE]     class CmdEcho (defaults_cmds.MuxCommand):
+19-02-13 02:11:08 [EE] NameError: name 'defaults_cmds' is not defined
+19-02-13 02:11:08 [EE] 
+19-02-13 02:11:08 [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.",
+19-02-13 02:11:08 [EE] (Traceback was logged 19-02-13 02:11:08)
+19-02-13 02:11:08 [EE] 
+19-02-13 02:11:08 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+19-02-13 02:11:08 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+19-02-13 02:12:07 [::] Traceback (most recent call last):
+19-02-13 02:12:07 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 198, in import_cmdset
+19-02-13 02:12:07 [::]     cmdsetclass = cmdsetclass(cmdsetobj)
+19-02-13 02:12:07 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdset.py", line 190, in __init__
+19-02-13 02:12:07 [::]     self.at_cmdset_creation()
+19-02-13 02:12:07 [::]   File "./commands/default_cmdsets.py", line 104, in at_cmdset_creation
+19-02-13 02:12:07 [::]     super(DefaultSet, self).at_cmdset_creation()
+19-02-13 02:12:07 [::] NameError: global name 'DefaultSet' is not defined
+19-02-13 02:12:07 [EE] Traceback (most recent call last):
+19-02-13 02:12:07 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 198, in import_cmdset
+19-02-13 02:12:07 [EE]     cmdsetclass = cmdsetclass(cmdsetobj)
+19-02-13 02:12:07 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdset.py", line 190, in __init__
+19-02-13 02:12:07 [EE]     self.at_cmdset_creation()
+19-02-13 02:12:07 [EE]   File "./commands/default_cmdsets.py", line 104, in at_cmdset_creation
+19-02-13 02:12:07 [EE]     super(DefaultSet, self).at_cmdset_creation()
+19-02-13 02:12:07 [EE] NameError: global name 'DefaultSet' is not defined
+19-02-13 02:12:07 [EE] 
+19-02-13 02:12:07 [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.",
+19-02-13 02:12:07 [EE] (Traceback was logged 19-02-13 02:12:07)
+19-02-13 02:12:07 [EE] 
+19-02-13 02:12:07 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-13 02:12:07 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-13 02:12:08 [..] Server disconnected from the portal.
+19-02-13 02:12:08 Main loop terminated.
+19-02-13 02:12:08 Server Shut Down.
+19-02-13 02:12:08 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-13 02:12:08 Loaded.
+19-02-13 02:12:08 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-13 02:12:08 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-13 02:12:08 Webserver starting on 4005
+19-02-13 02:12:08 Server successfully reloaded.
+19-02-13 02:12:12 [::] Traceback (most recent call last):
+19-02-13 02:12:12 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 198, in import_cmdset
+19-02-13 02:12:12 [::]     cmdsetclass = cmdsetclass(cmdsetobj)
+19-02-13 02:12:12 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdset.py", line 190, in __init__
+19-02-13 02:12:12 [::]     self.at_cmdset_creation()
+19-02-13 02:12:12 [::]   File "./commands/default_cmdsets.py", line 104, in at_cmdset_creation
+19-02-13 02:12:12 [::]     super(DefaultSet, self).at_cmdset_creation()
+19-02-13 02:12:12 [::] NameError: global name 'DefaultSet' is not defined
+19-02-13 02:12:12 [EE] Traceback (most recent call last):
+19-02-13 02:12:12 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 198, in import_cmdset
+19-02-13 02:12:12 [EE]     cmdsetclass = cmdsetclass(cmdsetobj)
+19-02-13 02:12:12 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdset.py", line 190, in __init__
+19-02-13 02:12:12 [EE]     self.at_cmdset_creation()
+19-02-13 02:12:12 [EE]   File "./commands/default_cmdsets.py", line 104, in at_cmdset_creation
+19-02-13 02:12:12 [EE]     super(DefaultSet, self).at_cmdset_creation()
+19-02-13 02:12:12 [EE] NameError: global name 'DefaultSet' is not defined
+19-02-13 02:12:12 [EE] 
+19-02-13 02:12:12 [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.",
+19-02-13 02:12:12 [EE] (Traceback was logged 19-02-13 02:12:12)
+19-02-13 02:12:12 [EE] 
+19-02-13 02:12:12 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-13 02:12:12 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-13 02:14:04 [..] Server disconnected from the portal.
+19-02-13 02:14:04 Main loop terminated.
+19-02-13 02:14:04 Server Shut Down.
+19-02-13 02:14:05 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-13 02:14:06 Loaded.
+19-02-13 02:14:06 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-13 02:14:06 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-13 02:14:06 Webserver starting on 4005
+19-02-13 02:14:06 Server successfully reloaded.
+19-02-15 00:44:08 [..] Server disconnected from the portal.
+19-02-15 00:44:08 Main loop terminated.
+19-02-15 00:44:08 Server Shut Down.
+19-02-15 00:44:09 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-15 00:44:10 Loaded.
+19-02-15 00:44:10 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-15 00:44:10 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-15 00:44:10 Webserver starting on 4005
+19-02-15 00:44:10 Server successfully reloaded.
+19-02-20 22:44:14 [..] Logged out: alexey(account 1) 127.0.0.1 (0 sessions(s) remaining)
+19-02-23 19:41:45 [..] Logged in: alexey(account 1) 127.0.0.1 (1 session(s) total)
+19-02-23 19:47:23 [..] Server disconnected from the portal.
+19-02-23 19:47:23 Main loop terminated.
+19-02-23 19:47:23 Server Shut Down.
+Unhandled Error
+Traceback (most recent call last):
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/application/app.py", line 674, in run
+    runApp(config)
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/scripts/twistd.py", line 25, in runApp
+    runner.run()
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/application/app.py", line 381, in run
+    self.application = self.createOrGetApplication()
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/application/app.py", line 453, in createOrGetApplication
+    application = getApplication(self.config, passphrase)
+--- <exception caught here> ---
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/application/app.py", line 464, in getApplication
+    application = service.loadApplication(filename, style, passphrase)
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/application/service.py", line 416, in loadApplication
+    application = sob.loadValueFromFile(filename, 'application')
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/persisted/sob.py", line 177, in loadValueFromFile
+    eval(codeObj, d, d)
+  File "/Users/grace/evennia/evennia/evennia/server/server.py", line 25, in <module>
+    evennia._init()
+  File "/Users/grace/evennia/evennia/evennia/__init__.py", line 177, in _init
+    from .prototypes.spawner import spawn
+  File "/Users/grace/evennia/evennia/evennia/prototypes/spawner.py", line 142, in <module>
+    from evennia.prototypes import prototypes as protlib
+  File "/Users/grace/evennia/evennia/evennia/prototypes/prototypes.py", line 106, in <module>
+    for variable_name, prot in all_from_module(mod).items():
+  File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1281, in all_from_module
+    mod = mod_import(module)
+  File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1233, in mod_import
+    mod = __import__(module, fromlist=["None"])
+exceptions.SyntaxError: invalid syntax (prototypes.py, line 88)
+
+
+Failed to load application: invalid syntax (prototypes.py, line 88)
+
+19-02-23 20:01:04 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-23 20:01:05 Loaded.
+19-02-23 20:01:05 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-23 20:01:05 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-23 20:01:05 Webserver starting on 4005
+19-02-23 20:01:05 Server successfully reloaded.
+19-02-23 20:01:12 [::] Traceback (most recent call last):
+19-02-23 20:01:12 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-23 20:01:12 [::]     module = import_module(modpath, package="evennia")
+19-02-23 20:01:12 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-23 20:01:12 [::]     __import__(name)
+19-02-23 20:01:12 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-23 20:01:12 [::]     from commands.command import CmdEcho
+19-02-23 20:01:12 [::]   File "./commands/command.py", line 67
+19-02-23 20:01:12 [::]     "goto": "node_where"},
+19-02-23 20:01:12 [::]           ^
+19-02-23 20:01:12 [::] SyntaxError: invalid syntax
+19-02-23 20:01:12 [EE] Traceback (most recent call last):
+19-02-23 20:01:12 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-23 20:01:12 [EE]     module = import_module(modpath, package="evennia")
+19-02-23 20:01:12 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-23 20:01:12 [EE]     __import__(name)
+19-02-23 20:01:12 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-23 20:01:12 [EE]     from commands.command import CmdEcho
+19-02-23 20:01:12 [EE]   File "./commands/command.py", line 67
+19-02-23 20:01:12 [EE]     "goto": "node_where"},
+19-02-23 20:01:12 [EE]           ^
+19-02-23 20:01:12 [EE] SyntaxError: invalid syntax
+19-02-23 20:01:12 [EE] 
+19-02-23 20:01:12 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.UnloggedinCmdSet'.
+19-02-23 20:01:12 [EE] (Traceback was logged 19-02-23 20:01:12)
+19-02-23 20:01:12 [EE] 
+19-02-23 20:01:12 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.UnloggedinCmdSet'.
+19-02-23 20:01:12 [EE] Replacing with fallback 'evennia.commands.default.cmdset_unloggedin.UnloggedinCmdSet'.
+19-02-23 20:01:19 [::] Traceback (most recent call last):
+19-02-23 20:01:19 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-23 20:01:19 [::]     module = import_module(modpath, package="evennia")
+19-02-23 20:01:19 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-23 20:01:19 [::]     __import__(name)
+19-02-23 20:01:19 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-23 20:01:19 [::]     from commands.command import CmdEcho
+19-02-23 20:01:19 [::]   File "./commands/command.py", line 67
+19-02-23 20:01:19 [::]     "goto": "node_where"},
+19-02-23 20:01:19 [::]           ^
+19-02-23 20:01:19 [::] SyntaxError: invalid syntax
+19-02-23 20:01:19 [EE] Traceback (most recent call last):
+19-02-23 20:01:19 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-23 20:01:19 [EE]     module = import_module(modpath, package="evennia")
+19-02-23 20:01:19 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-23 20:01:19 [EE]     __import__(name)
+19-02-23 20:01:19 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-23 20:01:19 [EE]     from commands.command import CmdEcho
+19-02-23 20:01:19 [EE]   File "./commands/command.py", line 67
+19-02-23 20:01:19 [EE]     "goto": "node_where"},
+19-02-23 20:01:19 [EE]           ^
+19-02-23 20:01:19 [EE] SyntaxError: invalid syntax
+19-02-23 20:01:19 [EE] 
+19-02-23 20:01:19 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.
+19-02-23 20:01:19 [EE] (Traceback was logged 19-02-23 20:01:19)
+19-02-23 20:01:19 [EE] 
+19-02-23 20:01:19 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+19-02-23 20:01:19 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+19-02-23 20:01:19 [..] Logged in: alexey(account 1) 127.0.0.1 (1 session(s) total)
+19-02-23 20:01:19 [::] Traceback (most recent call last):
+19-02-23 20:01:19 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-23 20:01:19 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-23 20:01:19 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-23 20:01:19 [::]     mod = import_module(testpath, package="evennia")
+19-02-23 20:01:19 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-23 20:01:19 [::]     __import__(name)
+19-02-23 20:01:19 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-23 20:01:19 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-23 20:01:19 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-23 20:01:19 [::]     from commands.command import CmdEcho
+19-02-23 20:01:19 [::]   File "./commands/command.py", line 67
+19-02-23 20:01:19 [::]     "goto": "node_where"},
+19-02-23 20:01:19 [::]           ^
+19-02-23 20:01:19 [::] SyntaxError: invalid syntax
+19-02-23 20:01:19 [::] Traceback (most recent call last):
+19-02-23 20:01:19 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-23 20:01:19 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-23 20:01:19 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-23 20:01:19 [::]     mod = import_module(testpath, package="evennia")
+19-02-23 20:01:19 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-23 20:01:19 [::]     __import__(name)
+19-02-23 20:01:19 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-23 20:01:19 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-23 20:01:19 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-23 20:01:19 [::]     from commands.command import CmdEcho
+19-02-23 20:01:19 [::]   File "./commands/command.py", line 67
+19-02-23 20:01:19 [::]     "goto": "node_where"},
+19-02-23 20:01:19 [::]           ^
+19-02-23 20:01:19 [::] SyntaxError: invalid syntax
+19-02-23 20:01:24 [::] Traceback (most recent call last):
+19-02-23 20:01:24 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-23 20:01:24 [::]     module = import_module(modpath, package="evennia")
+19-02-23 20:01:24 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-23 20:01:24 [::]     __import__(name)
+19-02-23 20:01:24 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-23 20:01:24 [::]     from commands.command import CmdEcho
+19-02-23 20:01:24 [::]   File "./commands/command.py", line 67
+19-02-23 20:01:24 [::]     "goto": "node_where"},
+19-02-23 20:01:24 [::]           ^
+19-02-23 20:01:24 [::] SyntaxError: invalid syntax
+19-02-23 20:01:24 [EE] Traceback (most recent call last):
+19-02-23 20:01:24 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-23 20:01:24 [EE]     module = import_module(modpath, package="evennia")
+19-02-23 20:01:24 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-23 20:01:24 [EE]     __import__(name)
+19-02-23 20:01:24 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-23 20:01:24 [EE]     from commands.command import CmdEcho
+19-02-23 20:01:24 [EE]   File "./commands/command.py", line 67
+19-02-23 20:01:24 [EE]     "goto": "node_where"},
+19-02-23 20:01:24 [EE]           ^
+19-02-23 20:01:24 [EE] SyntaxError: invalid syntax
+19-02-23 20:01:24 [EE] 
+19-02-23 20:01:24 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.AccountCmdSet'.
+19-02-23 20:01:24 [EE] (Traceback was logged 19-02-23 20:01:24)
+19-02-23 20:01:24 [EE] 
+19-02-23 20:01:24 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.AccountCmdSet'.
+19-02-23 20:01:24 [EE] Replacing with fallback 'evennia.commands.default.cmdset_account.AccountCmdSet'.
+19-02-23 20:01:24 [::] Traceback (most recent call last):
+19-02-23 20:01:24 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-23 20:01:24 [::]     module = import_module(modpath, package="evennia")
+19-02-23 20:01:24 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-23 20:01:24 [::]     __import__(name)
+19-02-23 20:01:24 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-23 20:01:24 [::]     from commands.command import CmdEcho
+19-02-23 20:01:24 [::]   File "./commands/command.py", line 67
+19-02-23 20:01:24 [::]     "goto": "node_where"},
+19-02-23 20:01:24 [::]           ^
+19-02-23 20:01:24 [::] SyntaxError: invalid syntax
+19-02-23 20:01:24 [EE] Traceback (most recent call last):
+19-02-23 20:01:24 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-23 20:01:24 [EE]     module = import_module(modpath, package="evennia")
+19-02-23 20:01:24 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-23 20:01:24 [EE]     __import__(name)
+19-02-23 20:01:24 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-23 20:01:24 [EE]     from commands.command import CmdEcho
+19-02-23 20:01:24 [EE]   File "./commands/command.py", line 67
+19-02-23 20:01:24 [EE]     "goto": "node_where"},
+19-02-23 20:01:24 [EE]           ^
+19-02-23 20:01:24 [EE] SyntaxError: invalid syntax
+19-02-23 20:01:24 [EE] 
+19-02-23 20:01:24 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-23 20:01:24 [EE] (Traceback was logged 19-02-23 20:01:24)
+19-02-23 20:01:24 [EE] 
+19-02-23 20:01:24 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-23 20:01:24 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-23 20:01:24 [::] Traceback (most recent call last):
+19-02-23 20:01:24 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-23 20:01:24 [::]     module = import_module(modpath, package="evennia")
+19-02-23 20:01:24 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-23 20:01:24 [::]     __import__(name)
+19-02-23 20:01:24 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-23 20:01:24 [::]     from commands.command import CmdEcho
+19-02-23 20:01:24 [::]   File "./commands/command.py", line 67
+19-02-23 20:01:24 [::]     "goto": "node_where"},
+19-02-23 20:01:24 [::]           ^
+19-02-23 20:01:24 [::] SyntaxError: invalid syntax
+19-02-23 20:01:24 [EE] Traceback (most recent call last):
+19-02-23 20:01:24 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-23 20:01:24 [EE]     module = import_module(modpath, package="evennia")
+19-02-23 20:01:24 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-23 20:01:24 [EE]     __import__(name)
+19-02-23 20:01:24 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-23 20:01:24 [EE]     from commands.command import CmdEcho
+19-02-23 20:01:24 [EE]   File "./commands/command.py", line 67
+19-02-23 20:01:24 [EE]     "goto": "node_where"},
+19-02-23 20:01:24 [EE]           ^
+19-02-23 20:01:24 [EE] SyntaxError: invalid syntax
+19-02-23 20:01:24 [EE] 
+19-02-23 20:01:24 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-23 20:01:24 [EE] (Traceback was logged 19-02-23 20:01:24)
+19-02-23 20:01:24 [EE] 
+19-02-23 20:01:24 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-23 20:01:24 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-24 00:11:40 [..] Server disconnected from the portal.
+19-02-24 00:11:40 Main loop terminated.
+19-02-24 00:11:40 Server Shut Down.
+19-02-24 00:11:40 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-24 00:11:41 Loaded.
+19-02-24 00:11:41 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-24 00:11:41 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-24 00:11:41 Webserver starting on 4005
+19-02-24 00:11:41 Server successfully reloaded.
+19-02-24 00:11:41 [::] Traceback (most recent call last):
+19-02-24 00:11:41 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:11:41 [::]     module = import_module(modpath, package="evennia")
+19-02-24 00:11:41 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:11:41 [::]     __import__(name)
+19-02-24 00:11:41 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:11:41 [::]     from commands.command import CmdEcho
+19-02-24 00:11:41 [::]   File "./commands/command.py", line 69
+19-02-24 00:11:41 [::]     "goto": "node_where"},
+19-02-24 00:11:41 [::]           ^
+19-02-24 00:11:41 [::] SyntaxError: invalid syntax
+19-02-24 00:11:41 [EE] Traceback (most recent call last):
+19-02-24 00:11:41 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:11:41 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 00:11:41 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:11:41 [EE]     __import__(name)
+19-02-24 00:11:41 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:11:41 [EE]     from commands.command import CmdEcho
+19-02-24 00:11:41 [EE]   File "./commands/command.py", line 69
+19-02-24 00:11:41 [EE]     "goto": "node_where"},
+19-02-24 00:11:41 [EE]           ^
+19-02-24 00:11:41 [EE] SyntaxError: invalid syntax
+19-02-24 00:11:41 [EE] 
+19-02-24 00:11:41 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.
+19-02-24 00:11:41 [EE] (Traceback was logged 19-02-24 00:11:41)
+19-02-24 00:11:41 [EE] 
+19-02-24 00:11:41 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+19-02-24 00:11:41 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+19-02-24 00:11:49 [::] Traceback (most recent call last):
+19-02-24 00:11:49 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:11:49 [::]     module = import_module(modpath, package="evennia")
+19-02-24 00:11:49 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:11:49 [::]     __import__(name)
+19-02-24 00:11:49 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:11:49 [::]     from commands.command import CmdEcho
+19-02-24 00:11:49 [::]   File "./commands/command.py", line 69
+19-02-24 00:11:49 [::]     "goto": "node_where"},
+19-02-24 00:11:49 [::]           ^
+19-02-24 00:11:49 [::] SyntaxError: invalid syntax
+19-02-24 00:11:49 [EE] Traceback (most recent call last):
+19-02-24 00:11:49 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:11:49 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 00:11:49 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:11:49 [EE]     __import__(name)
+19-02-24 00:11:49 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:11:49 [EE]     from commands.command import CmdEcho
+19-02-24 00:11:49 [EE]   File "./commands/command.py", line 69
+19-02-24 00:11:49 [EE]     "goto": "node_where"},
+19-02-24 00:11:49 [EE]           ^
+19-02-24 00:11:49 [EE] SyntaxError: invalid syntax
+19-02-24 00:11:49 [EE] 
+19-02-24 00:11:49 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.AccountCmdSet'.
+19-02-24 00:11:49 [EE] (Traceback was logged 19-02-24 00:11:49)
+19-02-24 00:11:49 [EE] 
+19-02-24 00:11:49 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.AccountCmdSet'.
+19-02-24 00:11:49 [EE] Replacing with fallback 'evennia.commands.default.cmdset_account.AccountCmdSet'.
+19-02-24 00:11:49 [::] Traceback (most recent call last):
+19-02-24 00:11:49 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:11:49 [::]     module = import_module(modpath, package="evennia")
+19-02-24 00:11:49 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:11:49 [::]     __import__(name)
+19-02-24 00:11:49 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:11:49 [::]     from commands.command import CmdEcho
+19-02-24 00:11:49 [::]   File "./commands/command.py", line 69
+19-02-24 00:11:49 [::]     "goto": "node_where"},
+19-02-24 00:11:49 [::]           ^
+19-02-24 00:11:49 [::] SyntaxError: invalid syntax
+19-02-24 00:11:49 [EE] Traceback (most recent call last):
+19-02-24 00:11:49 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:11:49 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 00:11:49 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:11:49 [EE]     __import__(name)
+19-02-24 00:11:49 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:11:49 [EE]     from commands.command import CmdEcho
+19-02-24 00:11:49 [EE]   File "./commands/command.py", line 69
+19-02-24 00:11:49 [EE]     "goto": "node_where"},
+19-02-24 00:11:49 [EE]           ^
+19-02-24 00:11:49 [EE] SyntaxError: invalid syntax
+19-02-24 00:11:49 [EE] 
+19-02-24 00:11:49 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 00:11:49 [EE] (Traceback was logged 19-02-24 00:11:49)
+19-02-24 00:11:49 [EE] 
+19-02-24 00:11:49 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 00:11:49 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-24 00:11:49 [::] Traceback (most recent call last):
+19-02-24 00:11:49 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-24 00:11:49 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-24 00:11:49 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-24 00:11:49 [::]     mod = import_module(testpath, package="evennia")
+19-02-24 00:11:49 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:11:49 [::]     __import__(name)
+19-02-24 00:11:49 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-24 00:11:49 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-24 00:11:49 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:11:49 [::]     from commands.command import CmdEcho
+19-02-24 00:11:49 [::]   File "./commands/command.py", line 69
+19-02-24 00:11:49 [::]     "goto": "node_where"},
+19-02-24 00:11:49 [::]           ^
+19-02-24 00:11:49 [::] SyntaxError: invalid syntax
+19-02-24 00:11:49 [::] Traceback (most recent call last):
+19-02-24 00:11:49 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-24 00:11:49 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-24 00:11:49 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-24 00:11:49 [::]     mod = import_module(testpath, package="evennia")
+19-02-24 00:11:49 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:11:49 [::]     __import__(name)
+19-02-24 00:11:49 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-24 00:11:49 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-24 00:11:49 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:11:49 [::]     from commands.command import CmdEcho
+19-02-24 00:11:49 [::]   File "./commands/command.py", line 69
+19-02-24 00:11:49 [::]     "goto": "node_where"},
+19-02-24 00:11:49 [::]           ^
+19-02-24 00:11:49 [::] SyntaxError: invalid syntax
+19-02-24 00:11:49 [::] Traceback (most recent call last):
+19-02-24 00:11:49 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:11:49 [::]     module = import_module(modpath, package="evennia")
+19-02-24 00:11:49 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:11:49 [::]     __import__(name)
+19-02-24 00:11:49 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:11:49 [::]     from commands.command import CmdEcho
+19-02-24 00:11:49 [::]   File "./commands/command.py", line 69
+19-02-24 00:11:49 [::]     "goto": "node_where"},
+19-02-24 00:11:49 [::]           ^
+19-02-24 00:11:49 [::] SyntaxError: invalid syntax
+19-02-24 00:11:49 [EE] Traceback (most recent call last):
+19-02-24 00:11:49 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:11:49 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 00:11:49 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:11:49 [EE]     __import__(name)
+19-02-24 00:11:49 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:11:49 [EE]     from commands.command import CmdEcho
+19-02-24 00:11:49 [EE]   File "./commands/command.py", line 69
+19-02-24 00:11:49 [EE]     "goto": "node_where"},
+19-02-24 00:11:49 [EE]           ^
+19-02-24 00:11:49 [EE] SyntaxError: invalid syntax
+19-02-24 00:11:49 [EE] 
+19-02-24 00:11:49 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 00:11:49 [EE] (Traceback was logged 19-02-24 00:11:49)
+19-02-24 00:11:49 [EE] 
+19-02-24 00:11:49 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 00:11:49 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-24 00:12:48 [..] Server disconnected from the portal.
+19-02-24 00:12:48 Main loop terminated.
+19-02-24 00:12:48 Server Shut Down.
+19-02-24 00:12:48 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-24 00:12:49 Loaded.
+19-02-24 00:12:49 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-24 00:12:49 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-24 00:12:49 Webserver starting on 4005
+19-02-24 00:12:49 Server successfully reloaded.
+19-02-24 00:12:49 [::] Traceback (most recent call last):
+19-02-24 00:12:49 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:12:49 [::]     module = import_module(modpath, package="evennia")
+19-02-24 00:12:49 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:12:49 [::]     __import__(name)
+19-02-24 00:12:49 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:12:49 [::]     from commands.command import CmdEcho
+19-02-24 00:12:49 [::]   File "./commands/command.py", line 69
+19-02-24 00:12:49 [::]     "goto": "node_where"},
+19-02-24 00:12:49 [::]           ^
+19-02-24 00:12:49 [::] SyntaxError: invalid syntax
+19-02-24 00:12:49 [EE] Traceback (most recent call last):
+19-02-24 00:12:49 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:12:49 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 00:12:49 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:12:49 [EE]     __import__(name)
+19-02-24 00:12:49 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:12:49 [EE]     from commands.command import CmdEcho
+19-02-24 00:12:49 [EE]   File "./commands/command.py", line 69
+19-02-24 00:12:49 [EE]     "goto": "node_where"},
+19-02-24 00:12:49 [EE]           ^
+19-02-24 00:12:49 [EE] SyntaxError: invalid syntax
+19-02-24 00:12:49 [EE] 
+19-02-24 00:12:49 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.
+19-02-24 00:12:49 [EE] (Traceback was logged 19-02-24 00:12:49)
+19-02-24 00:12:49 [EE] 
+19-02-24 00:12:49 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+19-02-24 00:12:49 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+19-02-24 00:12:53 [::] Traceback (most recent call last):
+19-02-24 00:12:53 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:12:53 [::]     module = import_module(modpath, package="evennia")
+19-02-24 00:12:53 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:12:53 [::]     __import__(name)
+19-02-24 00:12:53 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:12:53 [::]     from commands.command import CmdEcho
+19-02-24 00:12:53 [::]   File "./commands/command.py", line 69
+19-02-24 00:12:53 [::]     "goto": "node_where"},
+19-02-24 00:12:53 [::]           ^
+19-02-24 00:12:53 [::] SyntaxError: invalid syntax
+19-02-24 00:12:53 [EE] Traceback (most recent call last):
+19-02-24 00:12:53 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:12:53 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 00:12:53 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:12:53 [EE]     __import__(name)
+19-02-24 00:12:53 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:12:53 [EE]     from commands.command import CmdEcho
+19-02-24 00:12:53 [EE]   File "./commands/command.py", line 69
+19-02-24 00:12:53 [EE]     "goto": "node_where"},
+19-02-24 00:12:53 [EE]           ^
+19-02-24 00:12:53 [EE] SyntaxError: invalid syntax
+19-02-24 00:12:53 [EE] 
+19-02-24 00:12:53 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.AccountCmdSet'.
+19-02-24 00:12:53 [EE] (Traceback was logged 19-02-24 00:12:53)
+19-02-24 00:12:53 [EE] 
+19-02-24 00:12:53 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.AccountCmdSet'.
+19-02-24 00:12:53 [EE] Replacing with fallback 'evennia.commands.default.cmdset_account.AccountCmdSet'.
+19-02-24 00:12:53 [::] Traceback (most recent call last):
+19-02-24 00:12:53 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:12:53 [::]     module = import_module(modpath, package="evennia")
+19-02-24 00:12:53 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:12:53 [::]     __import__(name)
+19-02-24 00:12:53 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:12:53 [::]     from commands.command import CmdEcho
+19-02-24 00:12:53 [::]   File "./commands/command.py", line 69
+19-02-24 00:12:53 [::]     "goto": "node_where"},
+19-02-24 00:12:53 [::]           ^
+19-02-24 00:12:53 [::] SyntaxError: invalid syntax
+19-02-24 00:12:53 [EE] Traceback (most recent call last):
+19-02-24 00:12:53 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:12:53 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 00:12:53 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:12:53 [EE]     __import__(name)
+19-02-24 00:12:53 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:12:53 [EE]     from commands.command import CmdEcho
+19-02-24 00:12:53 [EE]   File "./commands/command.py", line 69
+19-02-24 00:12:53 [EE]     "goto": "node_where"},
+19-02-24 00:12:53 [EE]           ^
+19-02-24 00:12:53 [EE] SyntaxError: invalid syntax
+19-02-24 00:12:53 [EE] 
+19-02-24 00:12:53 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 00:12:53 [EE] (Traceback was logged 19-02-24 00:12:53)
+19-02-24 00:12:53 [EE] 
+19-02-24 00:12:53 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 00:12:53 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-24 00:12:53 [::] Traceback (most recent call last):
+19-02-24 00:12:53 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-24 00:12:53 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-24 00:12:53 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-24 00:12:53 [::]     mod = import_module(testpath, package="evennia")
+19-02-24 00:12:53 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:12:53 [::]     __import__(name)
+19-02-24 00:12:53 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-24 00:12:53 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-24 00:12:53 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:12:53 [::]     from commands.command import CmdEcho
+19-02-24 00:12:53 [::]   File "./commands/command.py", line 69
+19-02-24 00:12:53 [::]     "goto": "node_where"},
+19-02-24 00:12:53 [::]           ^
+19-02-24 00:12:53 [::] SyntaxError: invalid syntax
+19-02-24 00:12:53 [::] Traceback (most recent call last):
+19-02-24 00:12:53 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-24 00:12:53 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-24 00:12:53 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-24 00:12:53 [::]     mod = import_module(testpath, package="evennia")
+19-02-24 00:12:53 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:12:53 [::]     __import__(name)
+19-02-24 00:12:53 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-24 00:12:53 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-24 00:12:53 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:12:53 [::]     from commands.command import CmdEcho
+19-02-24 00:12:53 [::]   File "./commands/command.py", line 69
+19-02-24 00:12:53 [::]     "goto": "node_where"},
+19-02-24 00:12:53 [::]           ^
+19-02-24 00:12:53 [::] SyntaxError: invalid syntax
+19-02-24 00:12:53 [::] Traceback (most recent call last):
+19-02-24 00:12:53 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:12:53 [::]     module = import_module(modpath, package="evennia")
+19-02-24 00:12:53 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:12:53 [::]     __import__(name)
+19-02-24 00:12:53 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:12:53 [::]     from commands.command import CmdEcho
+19-02-24 00:12:53 [::]   File "./commands/command.py", line 69
+19-02-24 00:12:53 [::]     "goto": "node_where"},
+19-02-24 00:12:53 [::]           ^
+19-02-24 00:12:53 [::] SyntaxError: invalid syntax
+19-02-24 00:12:53 [EE] Traceback (most recent call last):
+19-02-24 00:12:53 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:12:53 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 00:12:53 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:12:53 [EE]     __import__(name)
+19-02-24 00:12:53 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:12:53 [EE]     from commands.command import CmdEcho
+19-02-24 00:12:53 [EE]   File "./commands/command.py", line 69
+19-02-24 00:12:53 [EE]     "goto": "node_where"},
+19-02-24 00:12:53 [EE]           ^
+19-02-24 00:12:53 [EE] SyntaxError: invalid syntax
+19-02-24 00:12:53 [EE] 
+19-02-24 00:12:53 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 00:12:53 [EE] (Traceback was logged 19-02-24 00:12:53)
+19-02-24 00:12:53 [EE] 
+19-02-24 00:12:53 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 00:12:53 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-24 00:16:37 [..] Server disconnected from the portal.
+19-02-24 00:16:37 Main loop terminated.
+19-02-24 00:16:37 Server Shut Down.
+19-02-24 00:16:37 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-24 00:16:38 Loaded.
+19-02-24 00:16:38 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-24 00:16:38 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-24 00:16:38 Webserver starting on 4005
+19-02-24 00:16:38 Server successfully reloaded.
+19-02-24 00:16:38 [::] Traceback (most recent call last):
+19-02-24 00:16:38 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:16:38 [::]     module = import_module(modpath, package="evennia")
+19-02-24 00:16:38 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:16:38 [::]     __import__(name)
+19-02-24 00:16:38 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:16:38 [::]     from commands.command import CmdEcho
+19-02-24 00:16:38 [::]   File "./commands/command.py", line 69
+19-02-24 00:16:38 [::]     "goto": "node_where"},
+19-02-24 00:16:38 [::]           ^
+19-02-24 00:16:38 [::] SyntaxError: invalid syntax
+19-02-24 00:16:38 [EE] Traceback (most recent call last):
+19-02-24 00:16:38 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:16:38 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 00:16:38 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:16:38 [EE]     __import__(name)
+19-02-24 00:16:38 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:16:38 [EE]     from commands.command import CmdEcho
+19-02-24 00:16:38 [EE]   File "./commands/command.py", line 69
+19-02-24 00:16:38 [EE]     "goto": "node_where"},
+19-02-24 00:16:38 [EE]           ^
+19-02-24 00:16:38 [EE] SyntaxError: invalid syntax
+19-02-24 00:16:38 [EE] 
+19-02-24 00:16:38 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.
+19-02-24 00:16:38 [EE] (Traceback was logged 19-02-24 00:16:38)
+19-02-24 00:16:38 [EE] 
+19-02-24 00:16:38 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+19-02-24 00:16:38 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+19-02-24 00:17:24 [::] Traceback (most recent call last):
+19-02-24 00:17:24 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:17:24 [::]     module = import_module(modpath, package="evennia")
+19-02-24 00:17:24 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:17:24 [::]     __import__(name)
+19-02-24 00:17:24 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:17:24 [::]     from commands.command import CmdEcho
+19-02-24 00:17:24 [::]   File "./commands/command.py", line 69
+19-02-24 00:17:24 [::]     "goto": "node_where"},
+19-02-24 00:17:24 [::]           ^
+19-02-24 00:17:24 [::] SyntaxError: invalid syntax
+19-02-24 00:17:24 [EE] Traceback (most recent call last):
+19-02-24 00:17:24 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:17:24 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 00:17:24 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:17:24 [EE]     __import__(name)
+19-02-24 00:17:24 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:17:24 [EE]     from commands.command import CmdEcho
+19-02-24 00:17:24 [EE]   File "./commands/command.py", line 69
+19-02-24 00:17:24 [EE]     "goto": "node_where"},
+19-02-24 00:17:24 [EE]           ^
+19-02-24 00:17:24 [EE] SyntaxError: invalid syntax
+19-02-24 00:17:24 [EE] 
+19-02-24 00:17:24 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.AccountCmdSet'.
+19-02-24 00:17:24 [EE] (Traceback was logged 19-02-24 00:17:24)
+19-02-24 00:17:24 [EE] 
+19-02-24 00:17:24 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.AccountCmdSet'.
+19-02-24 00:17:24 [EE] Replacing with fallback 'evennia.commands.default.cmdset_account.AccountCmdSet'.
+19-02-24 00:17:24 [::] Traceback (most recent call last):
+19-02-24 00:17:24 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:17:24 [::]     module = import_module(modpath, package="evennia")
+19-02-24 00:17:24 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:17:24 [::]     __import__(name)
+19-02-24 00:17:24 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:17:24 [::]     from commands.command import CmdEcho
+19-02-24 00:17:24 [::]   File "./commands/command.py", line 69
+19-02-24 00:17:24 [::]     "goto": "node_where"},
+19-02-24 00:17:24 [::]           ^
+19-02-24 00:17:24 [::] SyntaxError: invalid syntax
+19-02-24 00:17:24 [EE] Traceback (most recent call last):
+19-02-24 00:17:24 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:17:24 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 00:17:24 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:17:24 [EE]     __import__(name)
+19-02-24 00:17:24 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:17:24 [EE]     from commands.command import CmdEcho
+19-02-24 00:17:24 [EE]   File "./commands/command.py", line 69
+19-02-24 00:17:24 [EE]     "goto": "node_where"},
+19-02-24 00:17:24 [EE]           ^
+19-02-24 00:17:24 [EE] SyntaxError: invalid syntax
+19-02-24 00:17:24 [EE] 
+19-02-24 00:17:24 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 00:17:24 [EE] (Traceback was logged 19-02-24 00:17:24)
+19-02-24 00:17:24 [EE] 
+19-02-24 00:17:24 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 00:17:24 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-24 00:17:24 [::] Traceback (most recent call last):
+19-02-24 00:17:24 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-24 00:17:24 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-24 00:17:24 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-24 00:17:24 [::]     mod = import_module(testpath, package="evennia")
+19-02-24 00:17:24 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:17:24 [::]     __import__(name)
+19-02-24 00:17:24 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-24 00:17:24 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-24 00:17:24 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:17:24 [::]     from commands.command import CmdEcho
+19-02-24 00:17:24 [::]   File "./commands/command.py", line 69
+19-02-24 00:17:24 [::]     "goto": "node_where"},
+19-02-24 00:17:24 [::]           ^
+19-02-24 00:17:24 [::] SyntaxError: invalid syntax
+19-02-24 00:17:24 [::] Traceback (most recent call last):
+19-02-24 00:17:24 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-24 00:17:24 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-24 00:17:24 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-24 00:17:24 [::]     mod = import_module(testpath, package="evennia")
+19-02-24 00:17:24 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:17:24 [::]     __import__(name)
+19-02-24 00:17:24 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-24 00:17:24 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-24 00:17:24 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:17:24 [::]     from commands.command import CmdEcho
+19-02-24 00:17:24 [::]   File "./commands/command.py", line 69
+19-02-24 00:17:24 [::]     "goto": "node_where"},
+19-02-24 00:17:24 [::]           ^
+19-02-24 00:17:24 [::] SyntaxError: invalid syntax
+19-02-24 00:17:24 [::] Traceback (most recent call last):
+19-02-24 00:17:24 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:17:24 [::]     module = import_module(modpath, package="evennia")
+19-02-24 00:17:24 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:17:24 [::]     __import__(name)
+19-02-24 00:17:24 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:17:24 [::]     from commands.command import CmdEcho
+19-02-24 00:17:24 [::]   File "./commands/command.py", line 69
+19-02-24 00:17:24 [::]     "goto": "node_where"},
+19-02-24 00:17:24 [::]           ^
+19-02-24 00:17:24 [::] SyntaxError: invalid syntax
+19-02-24 00:17:24 [EE] Traceback (most recent call last):
+19-02-24 00:17:24 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 00:17:24 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 00:17:24 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 00:17:24 [EE]     __import__(name)
+19-02-24 00:17:24 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 00:17:24 [EE]     from commands.command import CmdEcho
+19-02-24 00:17:24 [EE]   File "./commands/command.py", line 69
+19-02-24 00:17:24 [EE]     "goto": "node_where"},
+19-02-24 00:17:24 [EE]           ^
+19-02-24 00:17:24 [EE] SyntaxError: invalid syntax
+19-02-24 00:17:24 [EE] 
+19-02-24 00:17:24 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 00:17:24 [EE] (Traceback was logged 19-02-24 00:17:24)
+19-02-24 00:17:24 [EE] 
+19-02-24 00:17:24 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 00:17:24 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-24 19:47:48 [..] Server disconnected from the portal.
+19-02-24 19:47:48 Main loop terminated.
+19-02-24 19:47:48 Server Shut Down.
+Unhandled Error
+Traceback (most recent call last):
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/application/app.py", line 674, in run
+    runApp(config)
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/scripts/twistd.py", line 25, in runApp
+    runner.run()
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/application/app.py", line 381, in run
+    self.application = self.createOrGetApplication()
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/application/app.py", line 453, in createOrGetApplication
+    application = getApplication(self.config, passphrase)
+--- <exception caught here> ---
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/application/app.py", line 464, in getApplication
+    application = service.loadApplication(filename, style, passphrase)
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/application/service.py", line 416, in loadApplication
+    application = sob.loadValueFromFile(filename, 'application')
+  File "/Users/grace/evennia_testing/fuck/lib/python2.7/site-packages/twisted/persisted/sob.py", line 177, in loadValueFromFile
+    eval(codeObj, d, d)
+  File "/Users/grace/evennia/evennia/evennia/server/server.py", line 25, in <module>
+    evennia._init()
+  File "/Users/grace/evennia/evennia/evennia/__init__.py", line 177, in _init
+    from .prototypes.spawner import spawn
+  File "/Users/grace/evennia/evennia/evennia/prototypes/spawner.py", line 142, in <module>
+    from evennia.prototypes import prototypes as protlib
+  File "/Users/grace/evennia/evennia/evennia/prototypes/prototypes.py", line 106, in <module>
+    for variable_name, prot in all_from_module(mod).items():
+  File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1281, in all_from_module
+    mod = mod_import(module)
+  File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1233, in mod_import
+    mod = __import__(module, fromlist=["None"])
+exceptions.SyntaxError: invalid syntax (prototypes.py, line 47)
+
+
+Failed to load application: invalid syntax (prototypes.py, line 47)
+
+19-02-24 19:48:37 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-24 19:48:37 Loaded.
+19-02-24 19:48:37 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-24 19:48:37 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-24 19:48:37 Webserver starting on 4005
+19-02-24 19:48:37 Server successfully reloaded.
+19-02-24 19:48:41 [::] Traceback (most recent call last):
+19-02-24 19:48:41 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 19:48:41 [::]     module = import_module(modpath, package="evennia")
+19-02-24 19:48:41 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 19:48:41 [::]     __import__(name)
+19-02-24 19:48:41 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 19:48:41 [::]     from commands.command import CmdEcho
+19-02-24 19:48:41 [::]   File "./commands/command.py", line 69
+19-02-24 19:48:41 [::]     "goto": "node_where"},
+19-02-24 19:48:41 [::]           ^
+19-02-24 19:48:41 [::] SyntaxError: invalid syntax
+19-02-24 19:48:41 [EE] Traceback (most recent call last):
+19-02-24 19:48:41 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 19:48:41 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 19:48:41 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 19:48:41 [EE]     __import__(name)
+19-02-24 19:48:41 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 19:48:41 [EE]     from commands.command import CmdEcho
+19-02-24 19:48:41 [EE]   File "./commands/command.py", line 69
+19-02-24 19:48:41 [EE]     "goto": "node_where"},
+19-02-24 19:48:41 [EE]           ^
+19-02-24 19:48:41 [EE] SyntaxError: invalid syntax
+19-02-24 19:48:41 [EE] 
+19-02-24 19:48:41 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.UnloggedinCmdSet'.
+19-02-24 19:48:41 [EE] (Traceback was logged 19-02-24 19:48:41)
+19-02-24 19:48:41 [EE] 
+19-02-24 19:48:41 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.UnloggedinCmdSet'.
+19-02-24 19:48:41 [EE] Replacing with fallback 'evennia.commands.default.cmdset_unloggedin.UnloggedinCmdSet'.
+19-02-24 19:48:50 [::] Traceback (most recent call last):
+19-02-24 19:48:50 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 19:48:50 [::]     module = import_module(modpath, package="evennia")
+19-02-24 19:48:50 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 19:48:50 [::]     __import__(name)
+19-02-24 19:48:50 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 19:48:50 [::]     from commands.command import CmdEcho
+19-02-24 19:48:50 [::]   File "./commands/command.py", line 69
+19-02-24 19:48:50 [::]     "goto": "node_where"},
+19-02-24 19:48:50 [::]           ^
+19-02-24 19:48:50 [::] SyntaxError: invalid syntax
+19-02-24 19:48:50 [EE] Traceback (most recent call last):
+19-02-24 19:48:50 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 19:48:50 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 19:48:50 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 19:48:50 [EE]     __import__(name)
+19-02-24 19:48:50 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 19:48:50 [EE]     from commands.command import CmdEcho
+19-02-24 19:48:50 [EE]   File "./commands/command.py", line 69
+19-02-24 19:48:50 [EE]     "goto": "node_where"},
+19-02-24 19:48:50 [EE]           ^
+19-02-24 19:48:50 [EE] SyntaxError: invalid syntax
+19-02-24 19:48:50 [EE] 
+19-02-24 19:48:50 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.
+19-02-24 19:48:50 [EE] (Traceback was logged 19-02-24 19:48:50)
+19-02-24 19:48:50 [EE] 
+19-02-24 19:48:50 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+19-02-24 19:48:50 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+19-02-24 19:48:50 [..] Logged in: alexey(account 1) 127.0.0.1 (1 session(s) total)
+19-02-24 19:48:50 [::] Traceback (most recent call last):
+19-02-24 19:48:50 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-24 19:48:50 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-24 19:48:50 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-24 19:48:50 [::]     mod = import_module(testpath, package="evennia")
+19-02-24 19:48:50 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 19:48:50 [::]     __import__(name)
+19-02-24 19:48:50 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-24 19:48:50 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-24 19:48:50 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 19:48:50 [::]     from commands.command import CmdEcho
+19-02-24 19:48:50 [::]   File "./commands/command.py", line 69
+19-02-24 19:48:50 [::]     "goto": "node_where"},
+19-02-24 19:48:50 [::]           ^
+19-02-24 19:48:50 [::] SyntaxError: invalid syntax
+19-02-24 19:48:50 [::] Traceback (most recent call last):
+19-02-24 19:48:50 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-24 19:48:50 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-24 19:48:50 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-24 19:48:50 [::]     mod = import_module(testpath, package="evennia")
+19-02-24 19:48:50 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 19:48:50 [::]     __import__(name)
+19-02-24 19:48:50 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-24 19:48:50 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-24 19:48:50 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 19:48:50 [::]     from commands.command import CmdEcho
+19-02-24 19:48:50 [::]   File "./commands/command.py", line 69
+19-02-24 19:48:50 [::]     "goto": "node_where"},
+19-02-24 19:48:50 [::]           ^
+19-02-24 19:48:50 [::] SyntaxError: invalid syntax
+19-02-24 19:48:54 [::] Traceback (most recent call last):
+19-02-24 19:48:54 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 19:48:54 [::]     module = import_module(modpath, package="evennia")
+19-02-24 19:48:54 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 19:48:54 [::]     __import__(name)
+19-02-24 19:48:54 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 19:48:54 [::]     from commands.command import CmdEcho
+19-02-24 19:48:54 [::]   File "./commands/command.py", line 69
+19-02-24 19:48:54 [::]     "goto": "node_where"},
+19-02-24 19:48:54 [::]           ^
+19-02-24 19:48:54 [::] SyntaxError: invalid syntax
+19-02-24 19:48:54 [EE] Traceback (most recent call last):
+19-02-24 19:48:54 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 19:48:54 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 19:48:54 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 19:48:54 [EE]     __import__(name)
+19-02-24 19:48:54 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 19:48:54 [EE]     from commands.command import CmdEcho
+19-02-24 19:48:54 [EE]   File "./commands/command.py", line 69
+19-02-24 19:48:54 [EE]     "goto": "node_where"},
+19-02-24 19:48:54 [EE]           ^
+19-02-24 19:48:54 [EE] SyntaxError: invalid syntax
+19-02-24 19:48:54 [EE] 
+19-02-24 19:48:54 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.AccountCmdSet'.
+19-02-24 19:48:54 [EE] (Traceback was logged 19-02-24 19:48:54)
+19-02-24 19:48:54 [EE] 
+19-02-24 19:48:54 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.AccountCmdSet'.
+19-02-24 19:48:54 [EE] Replacing with fallback 'evennia.commands.default.cmdset_account.AccountCmdSet'.
+19-02-24 19:48:54 [::] Traceback (most recent call last):
+19-02-24 19:48:54 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 19:48:54 [::]     module = import_module(modpath, package="evennia")
+19-02-24 19:48:54 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 19:48:54 [::]     __import__(name)
+19-02-24 19:48:54 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 19:48:54 [::]     from commands.command import CmdEcho
+19-02-24 19:48:54 [::]   File "./commands/command.py", line 69
+19-02-24 19:48:54 [::]     "goto": "node_where"},
+19-02-24 19:48:54 [::]           ^
+19-02-24 19:48:54 [::] SyntaxError: invalid syntax
+19-02-24 19:48:54 [EE] Traceback (most recent call last):
+19-02-24 19:48:54 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 19:48:54 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 19:48:54 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 19:48:54 [EE]     __import__(name)
+19-02-24 19:48:54 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 19:48:54 [EE]     from commands.command import CmdEcho
+19-02-24 19:48:54 [EE]   File "./commands/command.py", line 69
+19-02-24 19:48:54 [EE]     "goto": "node_where"},
+19-02-24 19:48:54 [EE]           ^
+19-02-24 19:48:54 [EE] SyntaxError: invalid syntax
+19-02-24 19:48:54 [EE] 
+19-02-24 19:48:54 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 19:48:54 [EE] (Traceback was logged 19-02-24 19:48:54)
+19-02-24 19:48:54 [EE] 
+19-02-24 19:48:54 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 19:48:54 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-24 19:48:54 [::] Traceback (most recent call last):
+19-02-24 19:48:54 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 19:48:54 [::]     module = import_module(modpath, package="evennia")
+19-02-24 19:48:54 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 19:48:54 [::]     __import__(name)
+19-02-24 19:48:54 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 19:48:54 [::]     from commands.command import CmdEcho
+19-02-24 19:48:54 [::]   File "./commands/command.py", line 69
+19-02-24 19:48:54 [::]     "goto": "node_where"},
+19-02-24 19:48:54 [::]           ^
+19-02-24 19:48:54 [::] SyntaxError: invalid syntax
+19-02-24 19:48:54 [EE] Traceback (most recent call last):
+19-02-24 19:48:54 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-24 19:48:54 [EE]     module = import_module(modpath, package="evennia")
+19-02-24 19:48:54 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-24 19:48:54 [EE]     __import__(name)
+19-02-24 19:48:54 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-24 19:48:54 [EE]     from commands.command import CmdEcho
+19-02-24 19:48:54 [EE]   File "./commands/command.py", line 69
+19-02-24 19:48:54 [EE]     "goto": "node_where"},
+19-02-24 19:48:54 [EE]           ^
+19-02-24 19:48:54 [EE] SyntaxError: invalid syntax
+19-02-24 19:48:54 [EE] 
+19-02-24 19:48:54 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 19:48:54 [EE] (Traceback was logged 19-02-24 19:48:54)
+19-02-24 19:48:54 [EE] 
+19-02-24 19:48:54 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-24 19:48:54 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-25 04:27:30 [..] Server disconnected from the portal.
+19-02-25 04:27:30 Main loop terminated.
+19-02-25 04:27:30 Server Shut Down.
+19-02-25 04:27:31 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-25 04:27:32 Loaded.
+19-02-25 04:27:32 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-25 04:27:32 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-25 04:27:32 Webserver starting on 4005
+19-02-25 04:27:32 Server successfully reloaded.
+19-02-25 04:27:32 [::] Traceback (most recent call last):
+19-02-25 04:27:32 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:27:32 [::]     module = import_module(modpath, package="evennia")
+19-02-25 04:27:32 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:27:32 [::]     __import__(name)
+19-02-25 04:27:32 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:27:32 [::]     from commands.command import CmdEcho
+19-02-25 04:27:32 [::]   File "./commands/command.py", line 88
+19-02-25 04:27:32 [::]     caller.msg("Aborted.")
+19-02-25 04:27:32 [::]          ^
+19-02-25 04:27:32 [::] IndentationError: expected an indented block
+19-02-25 04:27:32 [EE] Traceback (most recent call last):
+19-02-25 04:27:32 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:27:32 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 04:27:32 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:27:32 [EE]     __import__(name)
+19-02-25 04:27:32 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:27:32 [EE]     from commands.command import CmdEcho
+19-02-25 04:27:32 [EE]   File "./commands/command.py", line 88
+19-02-25 04:27:32 [EE]     caller.msg("Aborted.")
+19-02-25 04:27:32 [EE]          ^
+19-02-25 04:27:32 [EE] IndentationError: expected an indented block
+19-02-25 04:27:32 [EE] 
+19-02-25 04:27:32 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.
+19-02-25 04:27:32 [EE] (Traceback was logged 19-02-25 04:27:32)
+19-02-25 04:27:32 [EE] 
+19-02-25 04:27:32 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+19-02-25 04:27:32 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+19-02-25 04:27:49 [::] Traceback (most recent call last):
+19-02-25 04:27:49 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:27:49 [::]     module = import_module(modpath, package="evennia")
+19-02-25 04:27:49 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:27:49 [::]     __import__(name)
+19-02-25 04:27:49 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:27:49 [::]     from commands.command import CmdEcho
+19-02-25 04:27:49 [::]   File "./commands/command.py", line 88
+19-02-25 04:27:49 [::]     caller.msg("Aborted.")
+19-02-25 04:27:49 [::]          ^
+19-02-25 04:27:49 [::] IndentationError: expected an indented block
+19-02-25 04:27:49 [EE] Traceback (most recent call last):
+19-02-25 04:27:49 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:27:49 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 04:27:49 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:27:49 [EE]     __import__(name)
+19-02-25 04:27:49 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:27:49 [EE]     from commands.command import CmdEcho
+19-02-25 04:27:49 [EE]   File "./commands/command.py", line 88
+19-02-25 04:27:49 [EE]     caller.msg("Aborted.")
+19-02-25 04:27:49 [EE]          ^
+19-02-25 04:27:49 [EE] IndentationError: expected an indented block
+19-02-25 04:27:49 [EE] 
+19-02-25 04:27:49 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.AccountCmdSet'.
+19-02-25 04:27:49 [EE] (Traceback was logged 19-02-25 04:27:49)
+19-02-25 04:27:49 [EE] 
+19-02-25 04:27:49 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.AccountCmdSet'.
+19-02-25 04:27:49 [EE] Replacing with fallback 'evennia.commands.default.cmdset_account.AccountCmdSet'.
+19-02-25 04:27:49 [::] Traceback (most recent call last):
+19-02-25 04:27:49 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:27:49 [::]     module = import_module(modpath, package="evennia")
+19-02-25 04:27:49 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:27:49 [::]     __import__(name)
+19-02-25 04:27:49 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:27:49 [::]     from commands.command import CmdEcho
+19-02-25 04:27:49 [::]   File "./commands/command.py", line 88
+19-02-25 04:27:49 [::]     caller.msg("Aborted.")
+19-02-25 04:27:49 [::]          ^
+19-02-25 04:27:49 [::] IndentationError: expected an indented block
+19-02-25 04:27:49 [EE] Traceback (most recent call last):
+19-02-25 04:27:49 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:27:49 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 04:27:49 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:27:49 [EE]     __import__(name)
+19-02-25 04:27:49 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:27:49 [EE]     from commands.command import CmdEcho
+19-02-25 04:27:49 [EE]   File "./commands/command.py", line 88
+19-02-25 04:27:49 [EE]     caller.msg("Aborted.")
+19-02-25 04:27:49 [EE]          ^
+19-02-25 04:27:49 [EE] IndentationError: expected an indented block
+19-02-25 04:27:49 [EE] 
+19-02-25 04:27:49 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 04:27:49 [EE] (Traceback was logged 19-02-25 04:27:49)
+19-02-25 04:27:49 [EE] 
+19-02-25 04:27:49 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 04:27:49 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-25 04:27:49 [::] Traceback (most recent call last):
+19-02-25 04:27:49 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-25 04:27:49 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-25 04:27:49 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-25 04:27:49 [::]     mod = import_module(testpath, package="evennia")
+19-02-25 04:27:49 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:27:49 [::]     __import__(name)
+19-02-25 04:27:49 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-25 04:27:49 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-25 04:27:49 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:27:49 [::]     from commands.command import CmdEcho
+19-02-25 04:27:49 [::]   File "./commands/command.py", line 88
+19-02-25 04:27:49 [::]     caller.msg("Aborted.")
+19-02-25 04:27:49 [::]          ^
+19-02-25 04:27:49 [::] IndentationError: expected an indented block
+19-02-25 04:27:49 [::] Traceback (most recent call last):
+19-02-25 04:27:49 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-25 04:27:49 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-25 04:27:49 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-25 04:27:49 [::]     mod = import_module(testpath, package="evennia")
+19-02-25 04:27:49 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:27:49 [::]     __import__(name)
+19-02-25 04:27:49 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-25 04:27:49 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-25 04:27:49 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:27:49 [::]     from commands.command import CmdEcho
+19-02-25 04:27:49 [::]   File "./commands/command.py", line 88
+19-02-25 04:27:49 [::]     caller.msg("Aborted.")
+19-02-25 04:27:49 [::]          ^
+19-02-25 04:27:49 [::] IndentationError: expected an indented block
+19-02-25 04:27:49 [::] Traceback (most recent call last):
+19-02-25 04:27:49 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:27:49 [::]     module = import_module(modpath, package="evennia")
+19-02-25 04:27:49 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:27:49 [::]     __import__(name)
+19-02-25 04:27:49 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:27:49 [::]     from commands.command import CmdEcho
+19-02-25 04:27:49 [::]   File "./commands/command.py", line 88
+19-02-25 04:27:49 [::]     caller.msg("Aborted.")
+19-02-25 04:27:49 [::]          ^
+19-02-25 04:27:49 [::] IndentationError: expected an indented block
+19-02-25 04:27:49 [EE] Traceback (most recent call last):
+19-02-25 04:27:49 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:27:49 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 04:27:49 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:27:49 [EE]     __import__(name)
+19-02-25 04:27:49 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:27:49 [EE]     from commands.command import CmdEcho
+19-02-25 04:27:49 [EE]   File "./commands/command.py", line 88
+19-02-25 04:27:49 [EE]     caller.msg("Aborted.")
+19-02-25 04:27:49 [EE]          ^
+19-02-25 04:27:49 [EE] IndentationError: expected an indented block
+19-02-25 04:27:49 [EE] 
+19-02-25 04:27:49 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 04:27:49 [EE] (Traceback was logged 19-02-25 04:27:49)
+19-02-25 04:27:49 [EE] 
+19-02-25 04:27:49 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 04:27:49 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-25 04:28:36 [::] Traceback (most recent call last):
+19-02-25 04:28:36 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:28:36 [::]     module = import_module(modpath, package="evennia")
+19-02-25 04:28:36 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:28:36 [::]     __import__(name)
+19-02-25 04:28:36 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:28:36 [::]     from commands.command import CmdEcho
+19-02-25 04:28:36 [::]   File "./commands/command.py", line 88
+19-02-25 04:28:36 [::]     caller.msg("Aborted.")
+19-02-25 04:28:36 [::]          ^
+19-02-25 04:28:36 [::] IndentationError: expected an indented block
+19-02-25 04:28:36 [EE] Traceback (most recent call last):
+19-02-25 04:28:36 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:28:36 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 04:28:36 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:28:36 [EE]     __import__(name)
+19-02-25 04:28:36 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:28:36 [EE]     from commands.command import CmdEcho
+19-02-25 04:28:36 [EE]   File "./commands/command.py", line 88
+19-02-25 04:28:36 [EE]     caller.msg("Aborted.")
+19-02-25 04:28:36 [EE]          ^
+19-02-25 04:28:36 [EE] IndentationError: expected an indented block
+19-02-25 04:28:36 [EE] 
+19-02-25 04:28:36 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 04:28:36 [EE] (Traceback was logged 19-02-25 04:28:36)
+19-02-25 04:28:36 [EE] 
+19-02-25 04:28:36 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 04:28:36 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-25 04:30:19 [..] Server disconnected from the portal.
+19-02-25 04:30:19 Main loop terminated.
+19-02-25 04:30:19 Server Shut Down.
+19-02-25 04:30:19 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-25 04:30:20 Loaded.
+19-02-25 04:30:20 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-25 04:30:20 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-25 04:30:20 Webserver starting on 4005
+19-02-25 04:30:20 Server successfully reloaded.
+19-02-25 04:30:20 [::] Traceback (most recent call last):
+19-02-25 04:30:20 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:30:20 [::]     module = import_module(modpath, package="evennia")
+19-02-25 04:30:20 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:30:20 [::]     __import__(name)
+19-02-25 04:30:20 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:30:20 [::]     from commands.command import CmdEcho
+19-02-25 04:30:20 [::]   File "./commands/command.py", line 88
+19-02-25 04:30:20 [::]     caller.msg("Aborted.")
+19-02-25 04:30:20 [::]          ^
+19-02-25 04:30:20 [::] IndentationError: expected an indented block
+19-02-25 04:30:20 [EE] Traceback (most recent call last):
+19-02-25 04:30:20 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:30:20 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 04:30:20 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:30:20 [EE]     __import__(name)
+19-02-25 04:30:20 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:30:20 [EE]     from commands.command import CmdEcho
+19-02-25 04:30:20 [EE]   File "./commands/command.py", line 88
+19-02-25 04:30:20 [EE]     caller.msg("Aborted.")
+19-02-25 04:30:20 [EE]          ^
+19-02-25 04:30:20 [EE] IndentationError: expected an indented block
+19-02-25 04:30:20 [EE] 
+19-02-25 04:30:20 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.
+19-02-25 04:30:20 [EE] (Traceback was logged 19-02-25 04:30:20)
+19-02-25 04:30:20 [EE] 
+19-02-25 04:30:20 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+19-02-25 04:30:20 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+19-02-25 04:34:10 [::] Traceback (most recent call last):
+19-02-25 04:34:10 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:34:10 [::]     module = import_module(modpath, package="evennia")
+19-02-25 04:34:10 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:34:10 [::]     __import__(name)
+19-02-25 04:34:10 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:34:10 [::]     from commands.command import CmdEcho
+19-02-25 04:34:10 [::]   File "./commands/command.py", line 88
+19-02-25 04:34:10 [::]     caller.msg("Aborted.")
+19-02-25 04:34:10 [::]          ^
+19-02-25 04:34:10 [::] IndentationError: expected an indented block
+19-02-25 04:34:10 [EE] Traceback (most recent call last):
+19-02-25 04:34:10 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:34:10 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 04:34:10 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:34:10 [EE]     __import__(name)
+19-02-25 04:34:10 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:34:10 [EE]     from commands.command import CmdEcho
+19-02-25 04:34:10 [EE]   File "./commands/command.py", line 88
+19-02-25 04:34:10 [EE]     caller.msg("Aborted.")
+19-02-25 04:34:10 [EE]          ^
+19-02-25 04:34:10 [EE] IndentationError: expected an indented block
+19-02-25 04:34:10 [EE] 
+19-02-25 04:34:10 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.AccountCmdSet'.
+19-02-25 04:34:10 [EE] (Traceback was logged 19-02-25 04:34:10)
+19-02-25 04:34:10 [EE] 
+19-02-25 04:34:10 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.AccountCmdSet'.
+19-02-25 04:34:10 [EE] Replacing with fallback 'evennia.commands.default.cmdset_account.AccountCmdSet'.
+19-02-25 04:34:10 [::] Traceback (most recent call last):
+19-02-25 04:34:10 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:34:10 [::]     module = import_module(modpath, package="evennia")
+19-02-25 04:34:10 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:34:10 [::]     __import__(name)
+19-02-25 04:34:10 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:34:10 [::]     from commands.command import CmdEcho
+19-02-25 04:34:10 [::]   File "./commands/command.py", line 88
+19-02-25 04:34:10 [::]     caller.msg("Aborted.")
+19-02-25 04:34:10 [::]          ^
+19-02-25 04:34:10 [::] IndentationError: expected an indented block
+19-02-25 04:34:10 [EE] Traceback (most recent call last):
+19-02-25 04:34:10 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:34:10 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 04:34:10 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:34:10 [EE]     __import__(name)
+19-02-25 04:34:10 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:34:10 [EE]     from commands.command import CmdEcho
+19-02-25 04:34:10 [EE]   File "./commands/command.py", line 88
+19-02-25 04:34:10 [EE]     caller.msg("Aborted.")
+19-02-25 04:34:10 [EE]          ^
+19-02-25 04:34:10 [EE] IndentationError: expected an indented block
+19-02-25 04:34:10 [EE] 
+19-02-25 04:34:10 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 04:34:10 [EE] (Traceback was logged 19-02-25 04:34:10)
+19-02-25 04:34:10 [EE] 
+19-02-25 04:34:10 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 04:34:10 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-25 04:34:10 [::] Traceback (most recent call last):
+19-02-25 04:34:10 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-25 04:34:10 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-25 04:34:10 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-25 04:34:10 [::]     mod = import_module(testpath, package="evennia")
+19-02-25 04:34:10 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:34:10 [::]     __import__(name)
+19-02-25 04:34:10 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-25 04:34:10 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-25 04:34:10 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:34:10 [::]     from commands.command import CmdEcho
+19-02-25 04:34:10 [::]   File "./commands/command.py", line 88
+19-02-25 04:34:10 [::]     caller.msg("Aborted.")
+19-02-25 04:34:10 [::]          ^
+19-02-25 04:34:10 [::] IndentationError: expected an indented block
+19-02-25 04:34:10 [::] Traceback (most recent call last):
+19-02-25 04:34:10 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-25 04:34:10 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-25 04:34:10 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-25 04:34:10 [::]     mod = import_module(testpath, package="evennia")
+19-02-25 04:34:10 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:34:10 [::]     __import__(name)
+19-02-25 04:34:10 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-25 04:34:10 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-25 04:34:10 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:34:10 [::]     from commands.command import CmdEcho
+19-02-25 04:34:10 [::]   File "./commands/command.py", line 88
+19-02-25 04:34:10 [::]     caller.msg("Aborted.")
+19-02-25 04:34:10 [::]          ^
+19-02-25 04:34:10 [::] IndentationError: expected an indented block
+19-02-25 04:34:10 [::] Traceback (most recent call last):
+19-02-25 04:34:10 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:34:10 [::]     module = import_module(modpath, package="evennia")
+19-02-25 04:34:10 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:34:10 [::]     __import__(name)
+19-02-25 04:34:10 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:34:10 [::]     from commands.command import CmdEcho
+19-02-25 04:34:10 [::]   File "./commands/command.py", line 88
+19-02-25 04:34:10 [::]     caller.msg("Aborted.")
+19-02-25 04:34:10 [::]          ^
+19-02-25 04:34:10 [::] IndentationError: expected an indented block
+19-02-25 04:34:10 [EE] Traceback (most recent call last):
+19-02-25 04:34:10 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:34:10 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 04:34:10 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:34:10 [EE]     __import__(name)
+19-02-25 04:34:10 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:34:10 [EE]     from commands.command import CmdEcho
+19-02-25 04:34:10 [EE]   File "./commands/command.py", line 88
+19-02-25 04:34:10 [EE]     caller.msg("Aborted.")
+19-02-25 04:34:10 [EE]          ^
+19-02-25 04:34:10 [EE] IndentationError: expected an indented block
+19-02-25 04:34:10 [EE] 
+19-02-25 04:34:10 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 04:34:10 [EE] (Traceback was logged 19-02-25 04:34:10)
+19-02-25 04:34:10 [EE] 
+19-02-25 04:34:10 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 04:34:10 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-25 04:34:37 [::] Traceback (most recent call last):
+19-02-25 04:34:37 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:34:37 [::]     module = import_module(modpath, package="evennia")
+19-02-25 04:34:37 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:34:37 [::]     __import__(name)
+19-02-25 04:34:37 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:34:37 [::]     from commands.command import CmdEcho
+19-02-25 04:34:37 [::]   File "./commands/command.py", line 88
+19-02-25 04:34:37 [::]     caller.msg("Aborted.")
+19-02-25 04:34:37 [::]          ^
+19-02-25 04:34:37 [::] IndentationError: expected an indented block
+19-02-25 04:34:37 [EE] Traceback (most recent call last):
+19-02-25 04:34:37 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 04:34:37 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 04:34:37 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 04:34:37 [EE]     __import__(name)
+19-02-25 04:34:37 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 04:34:37 [EE]     from commands.command import CmdEcho
+19-02-25 04:34:37 [EE]   File "./commands/command.py", line 88
+19-02-25 04:34:37 [EE]     caller.msg("Aborted.")
+19-02-25 04:34:37 [EE]          ^
+19-02-25 04:34:37 [EE] IndentationError: expected an indented block
+19-02-25 04:34:37 [EE] 
+19-02-25 04:34:37 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 04:34:37 [EE] (Traceback was logged 19-02-25 04:34:37)
+19-02-25 04:34:37 [EE] 
+19-02-25 04:34:37 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 04:34:37 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-25 04:37:13 [..] Logged out: alexey(account 1) 127.0.0.1 (0 sessions(s) remaining)
+19-02-25 04:37:35 Received SIGTERM, shutting down.
+19-02-25 04:37:35 [..] Server disconnected from the portal.
+19-02-25 04:37:35 Main loop terminated.
+19-02-25 04:37:35 Server Shut Down.
+19-02-25 14:56:54 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-25 14:56:55 Loaded.
+19-02-25 14:56:55 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-25 14:56:55 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-25 14:56:55 Webserver starting on 4005
+19-02-25 14:56:55 Evennia Server successfully started.
+19-02-25 14:57:00 [::] Traceback (most recent call last):
+19-02-25 14:57:00 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 14:57:00 [::]     module = import_module(modpath, package="evennia")
+19-02-25 14:57:00 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:57:00 [::]     __import__(name)
+19-02-25 14:57:00 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:57:00 [::]     from commands.command import CmdEcho
+19-02-25 14:57:00 [::]   File "./commands/command.py", line 88
+19-02-25 14:57:00 [::]     caller.msg("Aborted.")
+19-02-25 14:57:00 [::]          ^
+19-02-25 14:57:00 [::] IndentationError: expected an indented block
+19-02-25 14:57:00 [EE] Traceback (most recent call last):
+19-02-25 14:57:00 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 14:57:00 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 14:57:00 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:57:00 [EE]     __import__(name)
+19-02-25 14:57:00 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:57:00 [EE]     from commands.command import CmdEcho
+19-02-25 14:57:00 [EE]   File "./commands/command.py", line 88
+19-02-25 14:57:00 [EE]     caller.msg("Aborted.")
+19-02-25 14:57:00 [EE]          ^
+19-02-25 14:57:00 [EE] IndentationError: expected an indented block
+19-02-25 14:57:00 [EE] 
+19-02-25 14:57:00 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.UnloggedinCmdSet'.
+19-02-25 14:57:00 [EE] (Traceback was logged 19-02-25 14:57:00)
+19-02-25 14:57:00 [EE] 
+19-02-25 14:57:00 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.UnloggedinCmdSet'.
+19-02-25 14:57:00 [EE] Replacing with fallback 'evennia.commands.default.cmdset_unloggedin.UnloggedinCmdSet'.
+19-02-25 14:57:08 [::] Traceback (most recent call last):
+19-02-25 14:57:08 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 14:57:08 [::]     module = import_module(modpath, package="evennia")
+19-02-25 14:57:08 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:57:08 [::]     __import__(name)
+19-02-25 14:57:08 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:57:08 [::]     from commands.command import CmdEcho
+19-02-25 14:57:08 [::]   File "./commands/command.py", line 88
+19-02-25 14:57:08 [::]     caller.msg("Aborted.")
+19-02-25 14:57:08 [::]          ^
+19-02-25 14:57:08 [::] IndentationError: expected an indented block
+19-02-25 14:57:08 [EE] Traceback (most recent call last):
+19-02-25 14:57:08 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 14:57:08 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 14:57:08 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:57:08 [EE]     __import__(name)
+19-02-25 14:57:08 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:57:08 [EE]     from commands.command import CmdEcho
+19-02-25 14:57:08 [EE]   File "./commands/command.py", line 88
+19-02-25 14:57:08 [EE]     caller.msg("Aborted.")
+19-02-25 14:57:08 [EE]          ^
+19-02-25 14:57:08 [EE] IndentationError: expected an indented block
+19-02-25 14:57:08 [EE] 
+19-02-25 14:57:08 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.
+19-02-25 14:57:08 [EE] (Traceback was logged 19-02-25 14:57:08)
+19-02-25 14:57:08 [EE] 
+19-02-25 14:57:08 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+19-02-25 14:57:08 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+19-02-25 14:57:08 [..] Logged in: alexey(account 1) 127.0.0.1 (1 session(s) total)
+19-02-25 14:57:08 [::] Traceback (most recent call last):
+19-02-25 14:57:08 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-25 14:57:08 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-25 14:57:08 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-25 14:57:08 [::]     mod = import_module(testpath, package="evennia")
+19-02-25 14:57:08 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:57:08 [::]     __import__(name)
+19-02-25 14:57:08 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-25 14:57:08 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-25 14:57:08 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:57:08 [::]     from commands.command import CmdEcho
+19-02-25 14:57:08 [::]   File "./commands/command.py", line 88
+19-02-25 14:57:08 [::]     caller.msg("Aborted.")
+19-02-25 14:57:08 [::]          ^
+19-02-25 14:57:08 [::] IndentationError: expected an indented block
+19-02-25 14:57:08 [::] Traceback (most recent call last):
+19-02-25 14:57:08 [::]   File "/Users/grace/evennia/evennia/evennia/typeclasses/models.py", line 207, in set_class_from_typeclass
+19-02-25 14:57:08 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+19-02-25 14:57:08 [::]   File "/Users/grace/evennia/evennia/evennia/utils/utils.py", line 1459, in class_from_module
+19-02-25 14:57:08 [::]     mod = import_module(testpath, package="evennia")
+19-02-25 14:57:08 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:57:08 [::]     __import__(name)
+19-02-25 14:57:08 [::]   File "./typeclasses/rooms.py", line 10, in <module>
+19-02-25 14:57:08 [::]     from commands.default_cmdsets import ChargenCmdset
+19-02-25 14:57:08 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:57:08 [::]     from commands.command import CmdEcho
+19-02-25 14:57:08 [::]   File "./commands/command.py", line 88
+19-02-25 14:57:08 [::]     caller.msg("Aborted.")
+19-02-25 14:57:08 [::]          ^
+19-02-25 14:57:08 [::] IndentationError: expected an indented block
+19-02-25 14:57:13 [::] Traceback (most recent call last):
+19-02-25 14:57:13 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 14:57:13 [::]     module = import_module(modpath, package="evennia")
+19-02-25 14:57:13 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:57:13 [::]     __import__(name)
+19-02-25 14:57:13 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:57:13 [::]     from commands.command import CmdEcho
+19-02-25 14:57:13 [::]   File "./commands/command.py", line 88
+19-02-25 14:57:13 [::]     caller.msg("Aborted.")
+19-02-25 14:57:13 [::]          ^
+19-02-25 14:57:13 [::] IndentationError: expected an indented block
+19-02-25 14:57:13 [EE] Traceback (most recent call last):
+19-02-25 14:57:13 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 14:57:13 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 14:57:13 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:57:13 [EE]     __import__(name)
+19-02-25 14:57:13 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:57:13 [EE]     from commands.command import CmdEcho
+19-02-25 14:57:13 [EE]   File "./commands/command.py", line 88
+19-02-25 14:57:13 [EE]     caller.msg("Aborted.")
+19-02-25 14:57:13 [EE]          ^
+19-02-25 14:57:13 [EE] IndentationError: expected an indented block
+19-02-25 14:57:13 [EE] 
+19-02-25 14:57:13 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.AccountCmdSet'.
+19-02-25 14:57:13 [EE] (Traceback was logged 19-02-25 14:57:13)
+19-02-25 14:57:13 [EE] 
+19-02-25 14:57:13 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.AccountCmdSet'.
+19-02-25 14:57:13 [EE] Replacing with fallback 'evennia.commands.default.cmdset_account.AccountCmdSet'.
+19-02-25 14:57:13 [::] Traceback (most recent call last):
+19-02-25 14:57:13 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 14:57:13 [::]     module = import_module(modpath, package="evennia")
+19-02-25 14:57:13 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:57:13 [::]     __import__(name)
+19-02-25 14:57:13 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:57:13 [::]     from commands.command import CmdEcho
+19-02-25 14:57:13 [::]   File "./commands/command.py", line 88
+19-02-25 14:57:13 [::]     caller.msg("Aborted.")
+19-02-25 14:57:13 [::]          ^
+19-02-25 14:57:13 [::] IndentationError: expected an indented block
+19-02-25 14:57:13 [EE] Traceback (most recent call last):
+19-02-25 14:57:13 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 14:57:13 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 14:57:13 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:57:13 [EE]     __import__(name)
+19-02-25 14:57:13 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:57:13 [EE]     from commands.command import CmdEcho
+19-02-25 14:57:13 [EE]   File "./commands/command.py", line 88
+19-02-25 14:57:13 [EE]     caller.msg("Aborted.")
+19-02-25 14:57:13 [EE]          ^
+19-02-25 14:57:13 [EE] IndentationError: expected an indented block
+19-02-25 14:57:13 [EE] 
+19-02-25 14:57:13 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 14:57:13 [EE] (Traceback was logged 19-02-25 14:57:13)
+19-02-25 14:57:13 [EE] 
+19-02-25 14:57:13 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 14:57:13 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-25 14:57:13 [::] Traceback (most recent call last):
+19-02-25 14:57:13 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 14:57:13 [::]     module = import_module(modpath, package="evennia")
+19-02-25 14:57:13 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:57:13 [::]     __import__(name)
+19-02-25 14:57:13 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:57:13 [::]     from commands.command import CmdEcho
+19-02-25 14:57:13 [::]   File "./commands/command.py", line 88
+19-02-25 14:57:13 [::]     caller.msg("Aborted.")
+19-02-25 14:57:13 [::]          ^
+19-02-25 14:57:13 [::] IndentationError: expected an indented block
+19-02-25 14:57:13 [EE] Traceback (most recent call last):
+19-02-25 14:57:13 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 14:57:13 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 14:57:13 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:57:13 [EE]     __import__(name)
+19-02-25 14:57:13 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:57:13 [EE]     from commands.command import CmdEcho
+19-02-25 14:57:13 [EE]   File "./commands/command.py", line 88
+19-02-25 14:57:13 [EE]     caller.msg("Aborted.")
+19-02-25 14:57:13 [EE]          ^
+19-02-25 14:57:13 [EE] IndentationError: expected an indented block
+19-02-25 14:57:13 [EE] 
+19-02-25 14:57:13 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 14:57:13 [EE] (Traceback was logged 19-02-25 14:57:13)
+19-02-25 14:57:13 [EE] 
+19-02-25 14:57:13 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+19-02-25 14:57:13 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+19-02-25 14:59:00 [..] Server disconnected from the portal.
+19-02-25 14:59:00 Main loop terminated.
+19-02-25 14:59:00 Server Shut Down.
+19-02-25 14:59:00 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-25 14:59:00 Loaded.
+19-02-25 14:59:00 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-25 14:59:00 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-25 14:59:00 Webserver starting on 4005
+19-02-25 14:59:00 Server successfully reloaded.
+19-02-25 14:59:00 [::] Traceback (most recent call last):
+19-02-25 14:59:00 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 14:59:00 [::]     module = import_module(modpath, package="evennia")
+19-02-25 14:59:00 [::]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:59:00 [::]     __import__(name)
+19-02-25 14:59:00 [::]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:59:00 [::]     from commands.command import CmdEcho
+19-02-25 14:59:00 [::]   File "./commands/command.py", line 101
+19-02-25 14:59:00 [::]     text = "Current name: {}.\nEnter another name or <return> to accept."
+19-02-25 14:59:00 [::]        ^
+19-02-25 14:59:00 [::] IndentationError: expected an indented block
+19-02-25 14:59:00 [EE] Traceback (most recent call last):
+19-02-25 14:59:00 [EE]   File "/Users/grace/evennia/evennia/evennia/commands/cmdsethandler.py", line 174, in import_cmdset
+19-02-25 14:59:00 [EE]     module = import_module(modpath, package="evennia")
+19-02-25 14:59:00 [EE]   File "/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
+19-02-25 14:59:00 [EE]     __import__(name)
+19-02-25 14:59:00 [EE]   File "./commands/default_cmdsets.py", line 18, in <module>
+19-02-25 14:59:00 [EE]     from commands.command import CmdEcho
+19-02-25 14:59:00 [EE]   File "./commands/command.py", line 101
+19-02-25 14:59:00 [EE]     text = "Current name: {}.\nEnter another name or <return> to accept."
+19-02-25 14:59:00 [EE]        ^
+19-02-25 14:59:00 [EE] IndentationError: expected an indented block
+19-02-25 14:59:00 [EE] 
+19-02-25 14:59:00 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.
+19-02-25 14:59:00 [EE] (Traceback was logged 19-02-25 14:59:00)
+19-02-25 14:59:00 [EE] 
+19-02-25 14:59:00 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+19-02-25 14:59:00 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+19-02-25 14:59:47 [..] Server disconnected from the portal.
+19-02-25 14:59:47 Main loop terminated.
+19-02-25 14:59:47 Server Shut Down.
+19-02-25 14:59:47 Loading /Users/grace/evennia/evennia/evennia/server/server.py...
+19-02-25 14:59:47 Loaded.
+19-02-25 14:59:47 twistd 18.9.0 (/Users/grace/evennia_testing/fuck/bin/python2.7 2.7.15) starting up.
+19-02-25 14:59:47 reactor class: twisted.internet.selectreactor.SelectReactor.
+19-02-25 14:59:47 Webserver starting on 4005
+19-02-25 14:59:47 Server successfully reloaded.
+19-02-25 15:00:21 [::] Traceback (most recent call last):
+19-02-25 15:00:21 [::]   File "/Users/grace/evennia/evennia/evennia/commands/cmdhandler.py", line 591, in _run_command
+19-02-25 15:00:21 [::]     ret = cmd.func()
+19-02-25 15:00:21 [::]   File "./commands/command.py", line 63, in func
+19-02-25 15:00:21 [::]     EvMenu(caller, "world.mymenu")
+19-02-25 15:00:21 [::] NameError: global name 'caller' is not defined
+19-02-25 15:00:21 [EE] User input was: 'testcommand'.
